@@ -106,8 +106,6 @@ main .jumbotron .button-1 {
   border-radius: 30px;
   color: black;
   padding: 15px;
-  display: inline-block;
-  margin: 20px 10px;
   text-decoration: none;
 }
 
@@ -120,7 +118,6 @@ main .jumbotron .button-2 {
   border-radius: 30px;
   color: white;
   padding: 15px;
-  display: inline-block;
   text-decoration: none;
 }
 
@@ -206,15 +203,10 @@ footer {
 
 footer .footer-top {
   display: flex;
-  
-  min-height: 300px;
-  
 }
 
 footer .footer-top .social {
   width: calc(100% / 3);
-  
-  min-height: 200px;
 }
 
 footer .footer-top .social h3 {
@@ -224,7 +216,7 @@ footer .footer-top .social h3 {
 
 footer .footer-top .list{
   width: calc(100% / 6);
-  min-height: 200px;
+
 }
 
 footer .footer-top .list ul {
@@ -244,19 +236,12 @@ footer .footer-top .list ul li {
 
 /*footer-bottom*/
 footer .footer-bottom {
-  min-height: 200px;
   justify-content: space-between;
-
-}
-
-footer .footer-bottom .logo {
-  width: 132px;
-  height: 44px;
-  background-color: rgb(255, 0, 251);
 }
 
 footer .footer-bottom .button {
-  width: 227px;
-  height: 57px; /* togliere */
-  background-color: chartreuse;
+  background-color: #8EA1E1;
+  border-radius: 30px;
+  color: white;
+  padding: 15px;
 }

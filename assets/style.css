@@ -36,10 +36,6 @@ header .container .logo {
   min-height: 35px;
 }
 
-header .container .nav1 {
-  width: 700px;
-}
-
 header .container .nav1 ul {
   list-style: none;
   display: flex;
@@ -75,38 +71,39 @@ header .container .button:hover {
 main .jumbotron {
   background-image: url(../assets/img/jumbo.png);
   background-size: cover;
-  height: 547px; /* togliere */
+  padding: 200px;
   background-color: aquamarine;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-content: center;
   text-align: center;
 }
 
 main .jumbotron .text-top {
-  width: 781px;
-  height: 336px; /* togliere */
   color: white;
+  margin: 0 auto;
 }
 
 main .jumbotron .text-top h1 {
   font-size: 50px;
   margin-bottom: 30px;
+  padding-left: 70px;
 }
 
 main .jumbotron .text-top p {
   margin-bottom: 20px;
   width: 600px;
   margin: 0 auto;
-  padding: 10px;
+  padding-left: 60px;
   
 }
 
 main .jumbotron .container-button{
   height: 50px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 80px;
 }
 
 main .jumbotron .button-1 {
@@ -149,13 +146,14 @@ main section .image {
 
 main section .text {
   width: 40%;
-  min-height: 500px; /* togliere */
-  text-align: start;
   padding-top: 35px;
+  display: flex;
 }
 
 main section .text h2 {
-  font-size: 30px;
+  line-height: 120%;
+  font-size: 1.5em;
+  line-height: 120%;
   font-weight: bold;
   margin-bottom: 20px;
 }

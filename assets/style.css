@@ -1,3 +1,4 @@
+/* GENERAL */
 * {
   margin: 0;
   padding: 0;
@@ -101,11 +102,19 @@ main .jumbotron .text-top p {
   
 }
 
+main .jumbotron .container-button{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 main .jumbotron .button-1 {
   background-color: white;
   border-radius: 30px;
   color: black;
   padding: 15px;
+  margin-right: 20px;
   text-decoration: none;
 }
 
@@ -169,8 +178,6 @@ main .info-bottom .container .text-bottom h2 {
 }
 
 main .info-bottom .container .ready {
-  width: 673px;
-  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;

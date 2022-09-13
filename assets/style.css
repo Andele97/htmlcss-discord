@@ -134,28 +134,34 @@ main .jumbotron .button-2:hover {
 /* informazioni */
 
 main section .container {  
-  height: 700px; /* togliere */
-  justify-content: center;
+  padding-top: 100px;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 main section .image {
   width: 60%;
-  gap: 210px;
 }
 
 main section .text {
   width: 40%;
-  padding-top: 35px;
+  padding-top: 150px;
   display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  flex-direction: column;
 }
 
 main section .text h2 {
   line-height: 120%;
-  font-size: 1.5em;
+  font-size: 2em;
   line-height: 120%;
-  font-weight: bold;
   margin-bottom: 20px;
+}
+
+main section .text p {
+  align-items: flex-end;
 }
 
 main .info-bottom .container {
@@ -163,6 +169,10 @@ main .info-bottom .container {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+.image-bottom {
+  padding-bottom: 50px;
 }
 
 main .info-bottom .container .text-bottom {
@@ -180,6 +190,7 @@ main .info-bottom .container .ready {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  padding-bottom: 150px;
 }
 
 main .info-bottom .container .ready h3 {
@@ -216,12 +227,30 @@ footer .footer-top .social {
 
 footer .footer-top .social h3 {
   color: #728ADB;
-  padding: 30px;
+  padding-top: 30px;
+  margin-bottom: 25px;
+}
+
+footer .footer-top .social .lingua {
+  color: white;
+  margin-bottom: 20px;
+}
+
+footer .footer-top .social .lingua img {
+  height: 15px;
+  margin: 0 10px 0 0;
+}
+
+footer .footer-top .social .content {
+  width: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 footer .footer-top .list{
-  width: calc(100% / 6);
-
+  width: calc(100% / 6)
 }
 
 footer .footer-top .list ul {
@@ -236,12 +265,12 @@ footer .footer-top .list ul span {
 
 footer .footer-top .list ul li {
   margin-bottom: 10px;
-
 }
 
 /*footer-bottom*/
 footer .footer-bottom {
   justify-content: space-between;
+  padding-bottom: 50px;
 }
 
 footer .footer-bottom .button {

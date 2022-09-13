@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  height: 100px; /* togliere */
+  background-color: #255EE9;
+  display: flex;
+  align-items: center;
+}
+
+header .container{
+  justify-content: space-between;
+  text-align: center;
+}
+
+header .container .logo {
+  background-image: url(../assets/img/logo.svg);
+  background-repeat: no-repeat;
+  width: 132px;
+  min-height: 35px;
+}
+
+header .container .nav1 {
+  width: 700px;
+}
+
+header .container .nav1 ul {
+  list-style: none;
+  display: flex;
+}
+
+header .container .nav1 ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+}
+
+header .container .nav1 ul li a:hover {
+  text-decoration: underline;
+}
+
+header .container .button {
+  padding: 13px;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+header .container .button:hover {
+  text-decoration: underline;
+}
+
+/* MAIN */
+
+/* jumbotron */
+main .jumbotron {
+  background-image: url(../assets/img/jumbo.png);
+  background-size: cover;
+  height: 547px; /* togliere */
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+main .jumbotron .text-top {
+  width: 781px;
+  height: 336px; /* togliere */
+  color: white;
+}
+
+main .jumbotron .text-top h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+main .jumbotron .text-top p {
+  margin-bottom: 20px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  
+}
+
+main .jumbotron .button-1 {
+  background-color: white;
+  border-radius: 30px;
+  color: black;
+  padding: 15px;
+  display: inline-block;
+  margin: 20px 10px;
+  text-decoration: none;
+}
+
+main .jumbotron .button-1:hover {
+  text-decoration: underline;
+}
+
+main .jumbotron .button-2 {
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+main .jumbotron .button-2:hover {
+  text-decoration: underline;
+}
+
+/* informazioni */
+
+main section .container {  
+  height: 700px; /* togliere */
+  justify-content: center;
+  align-items: center;
+}
+
+main section .image {
+  width: 60%;
+  gap: 210px;
+}
+
+main section .text {
+  width: 40%;
+  min-height: 500px; /* togliere */
+  text-align: start;
+  padding-top: 35px;
+}
+
+main section .text h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main .info-bottom .container {
+  height: 1000px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+main .info-bottom .container .text-bottom {
+  width: 100%;
+  height: 200px;
+  padding-top: 80px;
+}
+
+main .info-bottom .container .text-bottom h2 {
+  margin-bottom: 20px;
+}
+
+main .info-bottom .container .ready {
+  width: 673px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+main .info-bottom .container .ready h3 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+main .info-bottom .container .ready .button {
+  background-color: #8EA1E1;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+main .info-bottom .container .ready .button:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #24272A;
+}
+
+footer .footer-top {
+  display: flex;
+  
+  min-height: 300px;
+  
+}
+
+footer .footer-top .social {
+  width: calc(100% / 3);
+  
+  min-height: 200px;
+}
+
+footer .footer-top .social h3 {
+  color: #728ADB;
+  padding: 30px;
+}
+
+footer .footer-top .list{
+  width: calc(100% / 6);
+  min-height: 200px;
+}
+
+footer .footer-top .list ul {
+  list-style: none;
+  color: white;
+  padding: 30px;
+}
+
+footer .footer-top .list ul span {
+  color: #728ADB;
+}
+
+footer .footer-top .list ul li {
+  margin-bottom: 10px;
+
+}
+
+/*footer-bottom*/
+footer .footer-bottom {
+  min-height: 200px;
+  justify-content: space-between;
+
+}
+
+footer .footer-bottom .logo {
+  width: 132px;
+  height: 44px;
+  background-color: rgb(255, 0, 251);
+}
+
+footer .footer-bottom .button {
+  width: 227px;
+  height: 57px; /* togliere */
+  background-color: chartreuse;
+}

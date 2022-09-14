@@ -71,6 +71,7 @@ header .container .button:hover {
 main .jumbotron {
   background-image: url(../assets/img/jumbo.png);
   background-size: cover;
+  background-position: center;
   padding: 200px;
   background-color: aquamarine;
   display: flex;
@@ -94,7 +95,7 @@ main .jumbotron .text-top p {
   width: 600px;
   margin: 0 auto;
   padding-left: 60px;
-  
+  line-height: 20px;
 }
 
 main .jumbotron .container-button{
@@ -146,7 +147,7 @@ main section .image {
 
 main section .text {
   width: 40%;
-  padding-top: 150px;
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   align-self: flex-start;
@@ -155,13 +156,15 @@ main section .text {
 
 main section .text h2 {
   line-height: 120%;
-  font-size: 2em;
+  font-size: 3em;
   line-height: 120%;
   margin-bottom: 20px;
 }
 
 main section .text p {
-  align-items: flex-end;
+  display: flex;
+  font-size: 1.3em;
+  line-height: 30px;
 }
 
 main .info-bottom .container {
@@ -183,6 +186,11 @@ main .info-bottom .container .text-bottom {
 
 main .info-bottom .container .text-bottom h2 {
   margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+main .info-bottom .container .text-bottom p {
+  font-size: 1.3em;
 }
 
 main .info-bottom .container .ready {
@@ -276,10 +284,16 @@ footer .footer-top .list ul li a:hover {
   text-decoration: underline;
 }
 
+footer .container .linea {
+  height: 1px;
+  background-color: #404C6C;
+}
+
 /*footer-bottom*/
 footer .footer-bottom {
   justify-content: space-between;
   padding-bottom: 50px;
+  padding-top: 20px;
 }
 
 footer .footer-bottom .button {
